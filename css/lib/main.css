@@ -1,0 +1,15 @@
+@media (max-width: 476px){
+    .box {
+        margin-top: 50px !important;
+    }
+}
+
+.a-footer{
+    color: white;
+}
+
+.a-footer:hover{
+    color: rgb(215, 215, 215);
+    align-items: center;
+}
+

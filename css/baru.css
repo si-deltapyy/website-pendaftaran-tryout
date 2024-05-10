@@ -1,0 +1,416 @@
+
+/*===================================
+			  Basic Style
+===================================*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+a, a:focus, a:hover {
+	text-decoration: none;
+	outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*===================================
+			Margin & Padding
+===================================*/
+
+.padding-top-0  { padding-top: 0px !important;  }
+.padding-top-10 { padding-top: 10px !important; }
+.padding-top-20 { padding-top: 20px !important; }
+.padding-top-30 { padding-top: 30px !important; }
+.padding-top-50 { padding-top: 50px !important; }
+.padding-top-80 { padding-top: 80px !important; }
+
+.padding-bottom-0  { padding-bottom: 0px !important;  }
+.padding-bottom-10 { padding-bottom: 10px !important; }
+.padding-bottom-20 { padding-bottom: 20px !important; }
+.padding-bottom-30 { padding-bottom: 30px !important; }
+.padding-bottom-50 { padding-bottom: 50px !important; }
+.padding-bottom-80 { padding-bottom: 80px !important; }
+
+.margin-top-0   { margin-top: 0px !important;  }
+.margin-top-10  { margin-top: 10px !important; }
+.margin-top-20  { margin-top: 20px !important; }
+.margin-top-30  { margin-top: 30px !important; }
+.margin-top-50  { margin-top: 50px !important; }
+.margin-top-80  { margin-top: 80px !important; }
+.margin-top-100 { margin-top: 100px !important; }
+
+.margin-bottom-0   { margin-bottom: 0px !important;  }
+.margin-bottom-10  { margin-bottom: 10px !important; }
+.margin-bottom-20  { margin-bottom: 20px !important; }
+.margin-bottom-30  { margin-bottom: 30px !important; }
+.margin-bottom-50  { margin-bottom: 50px !important; }
+.margin-bottom-80  { margin-bottom: 80px !important; }
+.margin-bottom-100 { margin-bottom: 100px !important; }
+
+/*===================================
+				Navbar
+===================================*/
+
+.navbar {
+	border: 0;
+	margin-bottom: 0;
+	font-family: 'Lato', sans-serif;
+	border-bottom: 3px solid #ca6ce6 !important; /*second-colour*/
+	font-size: 12px;
+	letter-spacing: 1px;
+	background-color: #033a5c !important; /*base-colour*/
+}
+
+.navbar-brand {
+  	padding: 0px;
+}
+
+.navbar-brand > img {
+  	height: 100%;
+  	padding: 3px;
+  	width: auto;
+}
+
+.navbar a {
+	color: #fefefe !important;
+	opacity: 1;
+	border-bottom: 2px solid transparent !important;
+}
+
+.navbar a:hover {
+	opacity: 1;
+	color:  #db73fa !important; /*second-colour*/
+}
+
+/*.navbar-nav li .dropdown-menu { 
+	background-color: #080808;
+	color: #fefefe;
+	font-size: 12px;
+}*/
+
+.dropdown-menu li a {
+    color: #333333 !important;
+    font-size: 12px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: transparent;
+}
+
+.navbar-nav li.active a {
+   	 color:  #ca6ce6 !important;
+   	 border: none;
+   	 background-color: transparent !important;
+}
+
+@media(max-width: 768px) {
+	.navbar-brand {
+	  	margin-left: 10px;
+	}
+
+
+	.dropdown-menu li a {
+	    color: #fefefe !important;
+	}
+
+}
+
+
+/*===================================
+			   GREETING
+===================================*/
+
+
+.greeting h2 {
+	letter-spacing: 3px;
+}
+
+.greeting p {
+	font-size: 18px;
+}
+
+/*===================================
+			   TABLE-PESERTA
+===================================*/
+
+.table-peserta {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/*===================================
+			   TABLE-JADWAL
+===================================*/
+
+.table-jadwal {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/*===================================
+			   PROSEDUR
+===================================*/
+
+.prosedur p {
+	font-size: 16px;
+	padding-bottom: 10px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+/*===================================
+			FORM-PENDAFTARAN
+===================================*/
+
+.form-pendaftaran {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.form-pendaftaran .form-group {
+	padding: 20px 20px;
+}
+
+.form-pendaftaran .form-control {
+	border-radius: 0 !important;
+}
+
+.form-pendaftaran .btn-daftar {
+	border-radius: 0 !important;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+/*===================================
+			LOGIN-PESERTA
+===================================*/
+
+.login {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.card {
+    background-color: #F7F7F7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.btn.btn-signin {
+    background-color: #033a5c; /*base-colour*/
+    font-weight: 700;
+    font-size: 14px;
+    height: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: #ca6ce6; /*second-colour*/
+}
+
+
+/*===================================
+			   FOOTER
+===================================*/
+
+.footer {
+	text-align: left;
+	color: #fefefe;
+	background-color: #033a5c; /*base-colour*/
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.footer h4 {
+	letter-spacing: 3px;
+	margin: 20px 0 15px;
+}
+
+.footer p {
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+}
+
+.footer .social i {
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	font-size: 15px;
+   	color: #fefefe;
+   	transition: .2s;
+   	padding: 7px 8px;
+	border-radius: 50%;
+	background-color: #ca6ce6; /*second-colour*/
+}
+
+.footer .social .fa:hover {
+   	color: #ca6ce6; /*second-colour*/
+   	background-color: #fefefe;
+}
+
+.footer .profile i {
+	color: #ca6ce6; /*second-colour*/
+	font-size: 15px;
+	padding-right: 5px;
+}
+
+.footer .profile a {
+	color: #fefefe;
+}
+
+.footer hr {
+	border: 1px solid #ca6ce6; /*second-colour*/
+	margin-bottom: 0px;
+}
+
+.box {
+    background-color: rgb(224, 224, 224);
+    margin: 50px;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 476px){
+    .box {
+        margin: 20px 20px;
+    }
+    .form {
+        padding: 10px;
+        margin: 10px;
+    }
+    .form-pendaftaran .form-group {
+        padding: 2px;
+    }
+    .text {
+        margin: 20px;
+    }
+    thead th {
+        font-size: 16px;
+    }
+    tbody {
+        font-size: 13px;
+    }
+    .text{
+        margin-left: 20px;
+    }
+}
+
+.rows {
+    margin: 10px;
+}
+
+.isi{
+    margin: 10px;
+    padding: 10px;
+}
+
+.footer .copyright p {
+	color: #fefefe;
+	font-size: 10px;
+    letter-spacing: 1px;
+    margin: 10px 0 10px;
+}
+
+.footer a {
+    color: #fefefe;
+	font-size: 10px;
+}
+
+.ten p {
+    font-size: 12px;
+}
+
+.form-textarea {
+    resize: none;
+  }
+
+.pengumuman {
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    margin: 10px;
+}
+
+.banner-pengumuman {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.sponsor {
+  margin-top: 10px;
+}
+
+.sponsor img {
+    width: 60px;
+    margin: 4px;
+}
+
